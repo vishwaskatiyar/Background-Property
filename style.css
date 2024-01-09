@@ -55,3 +55,22 @@
     color: black;
     padding: 0.6% 1.5%;
 }
+
+@media only screen and (max-width: 768px) {
+    .nav {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .sub-active,
+    .active {
+        margin-inline: 2%;
+    }
+
+    .main-2 {
+        grid-template-columns: 1fr;
+    }
+
+    .main-3 {
+        grid-template-columns: 1fr;
+    }
+}
